@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "light-code-crm"
+version = "0.1.0"
+description = ""
+authors = ["alisher <shera.rashiduulu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "light_code_crm"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.1.1"
+djangorestframework = "^3.13.1"
+pillow = "^9.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
